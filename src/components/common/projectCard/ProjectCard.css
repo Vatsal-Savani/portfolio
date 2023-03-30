@@ -1,0 +1,119 @@
+.projectDp img{
+    height: 30vh ;
+    width: 20vw;
+    border-radius:1.1rem;
+    /* background-size: cover; */
+
+}
+
+.ProjectCard{
+    background-color: #2c2c6c;
+    border: 1px solid #2c2c6c ;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    color: white;
+    transition: background-color 0.3s;;
+
+}
+
+.ProjectCard:hover{
+    background: transparent;
+}
+
+.projectTitle , .techs{
+    margin: 2vh 0;
+}
+
+.hide{
+    display: hidden;
+}
+
+#gh{
+    background: transparent;
+    padding: 1rem;
+    margin: 3vh 0.3vw;
+    border:1px solid #4db5ff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #4db5ff;
+    transition: background-color 0.3s;
+}
+
+#ld{
+    background-color: #4db5ff;
+    padding: 1rem;
+    margin: 3vh 0.3vw;
+    border:1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+#gh:hover{
+    background: white;
+    color: black;
+    border-color: transparent;
+}
+
+#ld:hover{
+    background: white;
+}
+
+
+/* .......media Query......... */
+
+
+@media screen and (max-width: 900px) {
+    
+    .projectDp img{
+        height: 20vh;
+        width: 25vw;
+    }
+
+}
+@media screen and (max-width: 730px) {
+    
+    .projectDp img{
+        height: 20vh;
+        width: 30vw;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    
+    .projectDp img{
+        height: 20vh;
+        width: 35vw;
+    }
+    
+
+}
+@media screen and (max-width: 500px) {
+    
+    .projectDp img{
+        height: 30vh;
+        width: 75vw;
+    }
+    
+
+}
+@media screen and (max-width: 400px) {
+    
+    .projectDp img{
+        height: 25vh;
+        width: 75vw;
+    }
+    
+
+}
+@media screen and (max-width: 300px) {
+    
+    .projectDp img{
+        height: 20vh;
+        width: 65vw;
+    }
+    
+
+}

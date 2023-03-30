@@ -1,0 +1,40 @@
+.footerDiv{
+    background-color: #4db5ff;
+    padding: 6vh 0 18vh 0;
+}
+
+.footerNav{
+    margin: 4vh 0;
+}
+
+.footerUl{
+    list-style: none;
+}
+
+.codeVats p{
+   font-size: xx-large; 
+   color: black;
+}
+
+.footerUl li{
+    margin: 1vh 1vw;
+    cursor: pointer;
+}
+
+.footerUl li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerbtn{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    margin: 0 0.5vw;
+    cursor: pointer;
+}
+
+.copyright{
+    margin: 4vh 0 0 0;
+    color: black;
+}

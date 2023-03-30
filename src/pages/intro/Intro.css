@@ -1,0 +1,44 @@
+.info{
+    margin: auto;
+    padding: 10vh 0;
+}
+
+.childs{
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0;
+}
+
+.c1{
+    font-size: 1.3rem;
+}
+
+.c3{
+    font-size: 1.3rem;
+    opacity: 0.6;
+}
+
+.c2{
+    font-size: 3rem;
+}
+
+.infoChild2{
+    display: flex;
+    justify-content: center;
+}
+
+.infoChild2 button{
+    margin: 4vh 0.5vw;
+    height: 2.5rem;
+    width: 8rem;
+    background: transparent;
+    border:1px solid #4db5ff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #4db5ff;
+}
+
+.infoChild2 button:hover{
+    background-color: #4db5ff;
+    color: black;
+}

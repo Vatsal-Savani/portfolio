@@ -1,0 +1,115 @@
+.aboutBtn{
+    margin: 4vh 1rem;
+    height: 2.5rem;
+    width: 8rem;
+    background: #4db5ff;
+    border:1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+.aboutBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.abt{
+    margin: auto;
+}
+
+.head1{
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 1vh;
+}
+
+.head2{
+    font-size: 2rem;
+    color: #4db5ff;
+}
+
+.details{
+    /* width: 40vw; */
+    margin: 2rem 1rem;
+    flex-direction: column;
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+
+.iamgeofabout img{
+    height: 60vh;
+    width: 21vw;
+    border-radius: 2rem;
+}
+
+.leftAbt{
+    margin-top: 1rem;
+    margin-right: 10rem ;
+    margin-left: 2rem;
+    height: 60vh;
+    width: 21vw;
+    aspect-ratio: 1/1 ;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        #0095ff,
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+
+.iamgeofabout{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: 0.5s;
+}
+
+.iamgeofabout:hover{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.mainAbout{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1401px) {
+    
+    .leftAbt{
+        margin-right: 8rem;
+    }
+    
+    }
+@media screen and (max-width: 1301px) {
+    
+    .leftAbt{
+        margin-right: 6rem;
+    }
+    
+    }
+@media screen and (max-width: 1201px) {
+    
+    .leftAbt{
+        margin-right: 4rem;
+    }
+    
+    }
+
+@media screen and (max-width: 1058px) {
+    
+.leftAbt{
+    display: none;
+}
+
+.cards,.details,.abtBtn{
+    justify-content: center;
+}
+
+}

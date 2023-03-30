@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* utility */
+
+.d-flex{
+    display: flex;
 }
+
+.justify-center{
+    justify-content: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #1f1f38;
+    color: white;
+    background-image: url("./assets/bg-texture.png");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* main bg code : #1f1f38 */
+
+/* card bg code : #2c2c6c */
+
+/* footrer and btn bg : #4db5ff */

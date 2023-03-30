@@ -1,0 +1,62 @@
+.contactDiv{
+    margin-top: 15vh;
+    padding-bottom: 6vh;
+}
+
+.left{
+    flex-direction: column;
+}
+
+.right{
+    padding-top: 6vh;
+}
+
+input[type=text]{
+    background: transparent;
+    font-size: medium;
+    padding: 1vh 1vw;
+    height: 5vh;
+    width: 35vw;
+    border:1px solid #4db5ff;
+    border-radius: 5px;
+    margin: 1vh 0;
+    outline: none;
+    color: #4db5ff;
+}
+
+.message textarea{
+    background: transparent;
+    resize: none;
+    width: 35vw;
+    font-size: large;
+    padding: 1vh 1vw;
+    border:1px solid #4db5ff;
+    outline: none;
+    color: #4db5ff;
+}
+
+.contactbtn{
+    background: #4db5ff;
+    padding: 1rem;
+    margin: 3vh 0.3vw;
+    border:1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+.contactbtn:hover{
+    background: white;
+}
+
+
+/* .........media query........... */
+
+@media screen and (max-width: 1236px) {
+    input[type=text], .message textarea{
+        width: 80vw;
+    }
+
+
+  }
